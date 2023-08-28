@@ -1,0 +1,1 @@
+in this directory i will be using python to work on list. dictionary and conditional control statenment 
