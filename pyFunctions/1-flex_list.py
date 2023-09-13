@@ -1,7 +1,7 @@
 myList = [2, 1, "this", 4, "10", (3, 2), "fun", "python"]
 first = "Number"
 second = "Alphabet"
-third = "strings"
+third = "string"
 
 def new_list(values):
     if values == first.lower():
@@ -13,15 +13,15 @@ def new_list(values):
     else:
         return "Invalid option"
 
-number = input("Enter 'Numbers' ")
-string = input("Enter 'Strings' ")
-alphabet = input("Enter 'Alphabet': ")
+number = input("Enter 'Number', String, Alphabet ")
+# string = input("Enter 'Strings' ")
+# alphabet = input("Enter 'Alphabet': ")
 
 Number = new_list(number)
 print(Number)
 
-String = new_list(string)
-print(String)
+# String = new_list(string)
+# print(String)
 
-Alphabet = new_list(alphabet)
-print(Alphabet)
+# Alphabet = new_list(alphabet)
+# print(Alphabet)

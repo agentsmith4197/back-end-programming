@@ -36,16 +36,20 @@ while True:
         
         result = calc(num1, num2, operator)
         if operator == "+":
-            print(f'The sum of {num1} + {num2} = {result}')
+                print(f'The sum of {num1} + {num2} = {result}')
         elif operator == "-":
-        	print(f'The difference of {num1} - {num2} = {result}')
+                print(f'The difference of {num1} - {num2} = {result}')
+            
         elif operator == "/":
-        	print(f'The division of {num1} / {num2} = {result}')
+                print(f'The division of {num1} / {num2} = {result}')
+            
         elif operator == "*":
-        	print(f'The difference of {num1} * {num2} = {result}')
+                print(f'The difference of {num1} * {num2} = {result}')
+            
         elif operator == "%":
-        	print(f'The remaindant of {num1} and {num2} = {result}')
+                print(f'The remaindant of {num1} and {num2} = {result}')
+            
         else:
-            print("Invalid input.")
+                print("Invalid input.")
     except ValueError:
         print("Invalid input. Use the format 'number operator number'.")
